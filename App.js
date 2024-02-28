@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, Image, ImageBackground, TextInput } from 'react-native';
-
+import {SecondComponent} from './assets/components/SecondComponent';
 export default function App() {
     click = () => {
         alert('Você esta logado')
